@@ -72,7 +72,7 @@ async function run() {
         .send({ success: true })
     })
 
-    // Logout
+
     app.get('/logout', async (req, res) => {
       try {
         res
