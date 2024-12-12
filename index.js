@@ -21,7 +21,7 @@ app.use(cookieParser())
 
 
 
-// Verify Token Middleware
+
 const verifyToken = async (req, res, next) => {
   const token = req.cookies?.token
   console.log(token)
