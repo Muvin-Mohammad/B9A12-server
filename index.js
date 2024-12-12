@@ -89,7 +89,7 @@ async function run() {
     })
 
 
-    // get all apartments from db
+ 
     app.get('/apartments', async (req, res) => {
       const result = await roomsCollection.find().toArray();
       res.send(result);
